@@ -1,15 +1,14 @@
-### Gradient Generator </br>
+### Gradient Generator
 This is simple mini project made in Web Development journey.  
 
-### Technologies used </br>
+### Technologies used
+1. HTML </br>
+2. CSS </br>
+3. JavaScript </br>
+4. Bootstrap 
 
-<p> HTML </p>
-<p> CSS </p>
-<p> JavaScript </p>
-<p> Bootstrap </p>
 
-### License </br>
-
+### License
 This project is licensed under the MIT License. Feel free to modify and distribute the code as per the license terms. </br>
 
 ### Thank You...
