@@ -1,22 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap");
+
 body {
   font-family: "Raleway", sans-serif;
-  color: rgba(255, 255, 255, 0.7);
-  text-transform: uppercase;
-  letter-spacing: 0.5rem;
-  /* background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 255, 255)); */
+  color: rgba(255, 255, 255, 0.9);
+  background: linear-gradient(to right, #000428, #004e92);
   width: 100%;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-body * {
-  padding: 1rem;
-}
+
 
 body {
   font-family: "Roboto", sans-serif;
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -25,18 +25,31 @@ body {
   height: 100vh;
 }
 
-.random {
-  margin-top: 1rem;
-}
-
 .inputs {
-  flex-direction: row;
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
 }
 
-input {
+input[type="color"] {
   height: 3rem;
   width: 3rem;
-  padding: 0.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+button.btn-dark {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.btn-dark:hover {
+  background-color: #222;
 }
 
 h1 {
@@ -45,11 +58,18 @@ h1 {
   letter-spacing: 0.5rem;
 }
 
-h3 {
-  font: 900 1rem "Raleway", sans-serif;
-  color: rgba(0, 0, 0, 0.7);
+h2 {
+  font: 500 1.5rem "Raleway", sans-serif;
+  color: rgba(255, 255, 255, 0.9);
   text-transform: none;
-  letter-spacing: 0.01rem;
+  letter-spacing: 0.1rem;
+  margin-top: 2rem;
+}
+
+h3 {
+  font: 300 1rem "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.05rem;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
